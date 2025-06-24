@@ -128,7 +128,9 @@ a.btn:hover {
   text-align: center;
   gap: 40px;
 }
-
+.doc-page p {
+  width: 900px;
+}
 .doc-page h2 {
   font-size: 2em;
 }
