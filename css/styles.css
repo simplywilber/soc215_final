@@ -1,0 +1,143 @@
+#home-page {
+  margin: 10px;
+}
+
+body {
+  background-color: rgb(4, 4, 4);
+  line-height: 1.5;
+  color: #e9eaec;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+    font-family: "Game of Squid";
+    src: url("../fonts/game_of_squids/Game\ Of\ Squids.ttf");
+}
+
+header {
+  background-color: #0b0c0c;
+  color: #e4b61a;
+  height: 225px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  font-size: 30px;
+  font-family: "Game of Squid";
+}
+
+.logo a {
+  text-decoration: none;
+  display: inline-block;
+  color: #ED1B76;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.logo a:hover {
+  color: #e9eaec;
+  transform: scale(1.02);
+}
+
+#page-links a,
+.nav a {
+  text-decoration: none;
+  color: #e9eaec;
+  transition: color 0.2s ease;
+  padding: 25px;
+}
+
+#page-links a:hover,
+.nav a:hover {
+  color: #ED1B76;
+}
+
+footer {
+  background-color: #0b0c0c;
+  color: #dfdfdf;
+  height: 175px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#homepage-img {
+  border-radius: 5%;
+}
+
+#home-page {
+padding: 25px;
+}
+
+.intro {
+  display: flex;
+  gap: 40px;
+  animation: fadeIn 4s;
+  margin-left: 3%;
+}
+
+#sign {
+  margin-bottom: 30px;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+a.btn {
+  background-color: #f2599b;
+  color: black ;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  width: 23%;
+  display: inline-block;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+a.btn:hover {
+  color: white;
+  background-color: #97114b;
+}
+
+#home-page h2 {
+  font-size: 350%;
+  color: #ED1B76;
+}
+
+#home-page p {
+  font-size: 110%;
+}
+
+.doc-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+}
+
+.doc-page h2 {
+  font-size: 2em;
+}
+
+.doc-page .btn {
+  width: 10%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+
